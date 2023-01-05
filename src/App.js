@@ -2,6 +2,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Home from './components/Home';
+import NoticeBoard from './components/NoticeBoard/NoticeBoard';
 import Footer from './components/Footer';
 import Login from './components/Login/Login';
 import { useState} from "react"
@@ -20,9 +21,8 @@ function App() {
     <div className="container">
         <Routes>
           <Route path='/' element={<Home/>} />
-          {/* <Route path="/LevyCalculator" element={<LevyCalaculator/>}/> */}
+          <Route path="/NoticeBoard" element={<NoticeBoard/>}/> 
           <Route path="/Login" element={<Login auth={auth} setAuth={setAuth} />} />
-          {/* <Route path="/SignUp" element={<SignUp  />}/> */}
           </Routes>
         </div>
     <Footer/>
