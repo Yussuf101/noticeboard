@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from './Button';
 import './Home.css';
 
 export default function Home() {
@@ -17,7 +18,13 @@ export default function Home() {
           
            </ul>
           <div className='hero-btns'>
-        
+          <Button
+          className='btns'
+          buttonStyle='btn--outline'
+          buttonSize='btn--large'
+        >
+          GET STARTED
+        </Button>
         </div>
         </div>
       </div>

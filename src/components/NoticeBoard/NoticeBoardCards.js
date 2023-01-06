@@ -1,6 +1,6 @@
 import {React} from 'react';
-import { json} from 'react-router-dom';
-import './NoticeBoard.css';
+// import { json} from 'react-router-dom';
+// import './NoticeBoard.css';
 import NoticeBoardItems from './NoticeBoardItems';
 
 function NoticeBoardCards() {
@@ -14,33 +14,17 @@ function NoticeBoardCards() {
   //     });
   // };
   return (   
-     <div className='cards'>
+     <div className='feed'>
       <h1>What is new with Code Nation</h1>
-      <div className='cards__container'>
-      <div className='cards__wrapper'>
-        <ul className='cards__items'>
-          <NoticeBoardItems 
-            src="images/img-3.jpg"
-            text= ""
-            label='Codenation-linkedin-post'
-          />
-          <NoticeBoardItems 
-            src='images/img-2.jpg'
-            text='Travel through the Islands of Bali in a Private Cruise'
-            label='Luxury'
-          />
+      <div className='feed__container'>
+      <div className='feed__wrapper'>
+        <ul className='feed__items'>
+          <NoticeBoardItems/>
+          <NoticeBoardItems/>
         </ul>
-        <ul className='cards__items'>
-          <NoticeBoardItems 
-            src='images/img-3.jpg'
-            text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-            label='Mystery'
-          />
-          <NoticeBoardItems 
-            src='images/img-8.jpg'
-            text='Ride through the Sahara Desert on a guided camel tour'
-            label='Adrenaline'
-          />
+        <ul className='feed__items'>
+          <NoticeBoardItems/>
+          <NoticeBoardItems/>
         </ul>
       </div>
     </div>

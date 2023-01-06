@@ -1,6 +1,6 @@
 .feed{
     padding: 4rem;
-    background: #fff;
+    background: #444444;
   }
   
   h1 {
@@ -65,7 +65,7 @@
     max-width: calc((100%) - 60px);
     font-size: 12px;
     font-weight: 700;
-    color: #fff;
+    color: #444444;
     background-color: #1f98f4;
     box-sizing: border-box;
   }

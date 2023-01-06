@@ -1,5 +1,7 @@
 import React from 'react';
 import NoticeBoardCards from './NoticeBoardCards';
+import './NoticeBoard.css';
+
 // import useFetch from './useFetch';
 
 function NoticeBoard() {
@@ -12,7 +14,7 @@ function NoticeBoard() {
 // if (err) console.log(err);
 
 return (
-  <div className="App">
+  <div className="Noticeboard">
     <NoticeBoardCards/>
   </div>
 );
