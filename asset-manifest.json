@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/yussuf101/noticeboard.git/static/css/main.d90810fa.css",
+    "main.js": "/yussuf101/noticeboard.git/static/js/main.85e060f9.js",
+    "static/js/787.abe0cf45.chunk.js": "/yussuf101/noticeboard.git/static/js/787.abe0cf45.chunk.js",
+    "index.html": "/yussuf101/noticeboard.git/index.html",
+    "main.d90810fa.css.map": "/yussuf101/noticeboard.git/static/css/main.d90810fa.css.map",
+    "main.85e060f9.js.map": "/yussuf101/noticeboard.git/static/js/main.85e060f9.js.map",
+    "787.abe0cf45.chunk.js.map": "/yussuf101/noticeboard.git/static/js/787.abe0cf45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d90810fa.css",
+    "static/js/main.85e060f9.js"
+  ]
+}
